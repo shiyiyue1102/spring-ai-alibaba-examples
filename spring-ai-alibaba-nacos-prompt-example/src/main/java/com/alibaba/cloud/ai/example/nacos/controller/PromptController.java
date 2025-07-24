@@ -42,6 +42,7 @@ public class PromptController {
 
     private static final Logger logger = org.slf4j.LoggerFactory.getLogger(PromptController.class);
 
+
     private final ChatClient client;
 
     private final ConfigurablePromptTemplateFactory promptTemplateFactory;
